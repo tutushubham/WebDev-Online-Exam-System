@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>NETCAMP || FEEDBACK </title>
+<title>EXAMIN | FEEDBACK</title>
 <!-- <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/> -->
  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">     
@@ -30,11 +30,11 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
             <span class="navbar-toggler-icon"></span>
         </button> 
-        <a class="navbar-brand mr-5" href="#">Test Your Skills</a>
+        <a class="navbar-brand mr-5" href="#">Knowledge Assessment</a>
         <div class="collapse navbar-collapse" id="Navbar">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="http://www.netcamp.in">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/shubham-bhattacharyya-0b1380117/">About Us</a></li>
                 <li class="nav-item active"><a class="nav-link" href="feedback.php" target="_blank">Send Feedback</a></li>
                 <li class="nav-item"><a href="#" class = "nav-link" data-toggle="modal" data-target="#developers"></i>Developers</a></li>
             </ul>    
@@ -158,24 +158,35 @@ You can send us your feedback through e-mail on the following e-mail id:<br />
 <div class="modal fade title1" id="developers">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-         <h4 class="modal-title" style="font-family:'typo' "><span style="color:white">Developers</span></h4>
-        <button type="button" class="close" style="color:white" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-       
+      <div class="modal-header" >
+        <h4 class="modal-title" style="font-family:'typo' ; color:white"><span style="color:white">Developers</span></h4>
+        <button type="button" class="close" style="color:white"data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only" style="color:white">Close</span></button>
+        
       </div>
-	  
+    
       <div class="modal-body">
         <p>
-		<div class="row">
-		<div class="col-md-4">
-		 <img src="image/CAM00121.jpg" width=100 height=100 alt="Sunny Prakash Tiwari" class="img-rounded">
-		 </div>
-		 <div class="col-md-5">
-		<a href="https://www.facebook.com/sunnygkp10" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Sunny Prakash Tiwari</a>
-		<h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+917785068889</h4>
-		<h4 style="font-family:'typo' ">sunnygkp10@gmail.com</h4>
-		<h4 style="font-family:'typo' ">Kamla Nehru Institute Of Technology ,Sultanpur</h4></div></div>
-		</p>
+    <div class="row">
+    <div class="col-md-4">
+     <img src="image/1.jpeg" width=100 height=100 alt="Shubham Bhattacharyya" class="img-rounded">
+     </div>
+     <div class="col-md-5">
+    <a href="https://www.facebook.com/shubham.bhattacharyya.56" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Shubham Bhattacharyya</a>
+    <h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 75070 08911</h4>
+    <h4 style="font-family:'typo' ">tutushubham@gmail.com</h4>
+    <h4 style="font-family:'typo' ">Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior</h4></div></div>
+    </p>
+    <p>
+    <div class="row">
+    <div class="col-md-4">
+     <img src="image/2.png" width=100 height=100 alt="Guna Shekar Proddaturi" class="img-rounded">
+     </div>
+     <div class="col-md-5">
+    <a href="https://www.facebook.com/RVP20.CR7" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Guna Shekar Proddaturi</a>
+    <h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 79955 24941</h4>
+    <h4 style="font-family:'typo' ">gunashekherproddatoori@gmail.com</h4>
+    <h4 style="font-family:'typo' ">Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior</h4></div></div>
+    </p>
       </div>
     
     </div><!-- /.modal-content -->

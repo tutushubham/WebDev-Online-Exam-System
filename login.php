@@ -19,6 +19,7 @@ if($count==1){
 while($row = mysqli_fetch_array($result)) {
 	$name = $row['name'];
 }
+
 $_SESSION["name"] = $name;
 $_SESSION["email"] = $email;
 header("location:account.php?q=1");

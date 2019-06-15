@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>NETCAMP || TEST YOUR SKILL </title>
+<title>EXAMIN | KNOWLEDGE ASSESSMENT</title>
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
  <link rel="stylesheet" href="css/main.css">
@@ -28,7 +28,50 @@ include_once 'dbConnection.php';
 <div class="header navbar-dark">
 <div class="row">
 <div class="col-lg-6">
-<span class="logo" style="color:white">Test Your Skill</span></div>
+<span class="logo" style="color:white">Knowledge Assessment</span>
+<a href="https://www.linkedin.com/in/shubham-bhattacharyya-0b1380117/" target="_blank"><span style="color:white;margin-right: 1vw">ABOUT US</span></a>
+<a href="#" data-toggle="modal" data-target="#developers"><span style="color:white;margin-right: 1vw">DEVELOPERS</span></a>
+<a href="feedback.php" target="_blank"><span style="color:white;margin-right: 1vw">FEEDBACK</span></a>
+
+<!-- Modal For Developers-->
+<div class="modal fade title1" id="developers">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" >
+        <button type="button" class="close" style="color:white"data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only" style="color:white">Close</span></button>
+        <h4 class="modal-title" style="font-family:'typo' ; color:white"><span style="color:white">Developers</span></h4>
+      </div>
+    
+      <div class="modal-body">
+        <p>
+    <div class="row">
+    <div class="col-md-4">
+     <img src="image/1.jpeg" width=100 height=100 alt="Shubham Bhattacharyya" class="img-rounded">
+     </div>
+     <div class="col-md-5">
+    <a href="https://www.facebook.com/shubham.bhattacharyya.56" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Shubham Bhattacharyya</a>
+    <h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 75070 08911</h4>
+    <h4 style="font-family:'typo' ">tutushubham@gmail.com</h4>
+    <h4 style="font-family:'typo' ">Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior</h4></div></div>
+    </p>
+    <p>
+    <div class="row">
+    <div class="col-md-4">
+     <img src="image/2.png" width=100 height=100 alt="Guna Shekar Proddaturi" class="img-rounded">
+     </div>
+     <div class="col-md-5">
+    <a href="https://www.facebook.com/RVP20.CR7" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Guna Shekar Proddaturi</a>
+    <h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 79955 24941</h4>
+    <h4 style="font-family:'typo' ">gunashekherproddatoori@gmail.com</h4>
+    <h4 style="font-family:'typo' ">Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior</h4></div></div>
+    </p>
+      </div>
+    
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+</div>
 <div class="col-md-4 col-md-offset-2">
  <?php
  include_once 'dbConnection.php';
@@ -60,7 +103,7 @@ echo '<span class="pull-right top title1" style="color:white" ><span class="log1
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"style="color:white"><b>Netcamp</b></a>
+      <a class="navbar-brand" href="#"style="color:white"><b>Examin</b></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -112,26 +155,7 @@ echo '</table></div>';
 
 }?>
 <!--<span id="countdown" class="timer"></span>
-<script>
-var seconds = 40;
-    function secondPassed() {
-    var minutes = Math.round((seconds - 30)/60);
-    var remainingSeconds = seconds % 60;
-    if (remainingSeconds < 10) {
-        remainingSeconds = "0" + remainingSeconds; 
-    }
-    document.getElementById('countdown').innerHTML = minutes + ":" +    remainingSeconds;
-    if (seconds == 0) {
-        clearInterval(countdownTimer);
-        document.getElementById('countdown').innerHTML = "Buzz Buzz";
-    } else {    
-        seconds--;
-    }
-    }
-var countdownTimer = setInterval('secondPassed()', 1000);
-</script>-->
 
-<!--home closed-->
 
 <!--quiz start-->
 <?php
@@ -245,44 +269,6 @@ echo '</table></div>';}
 
 
 </div></div></div></div>
-<!--Footer start-->
-<div class="row footer">
-<div class="col-md-3 box">
-<a href="http://www.netcamp.in" target="_blank">About us</a>
-</div>
-<div class="col-md-3 box">
-<a href="#" data-toggle="modal" data-target="#login">Admin Login</a></div>
-<div class="col-md-3 box">
-<a href="#" data-toggle="modal" data-target="#developers">Developers</a>
-</div>
-<div class="col-md-3 box">
-<a href="feedback.php" target="_blank">Feedback</a></div></div>
-<!-- Modal For Developers-->
-<div class="modal fade title1" id="developers">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" style="font-family:'typo' "><span style="color:orange">Developers</span></h4>
-      </div>
-	  
-      <div class="modal-body">
-        <p>
-		<div class="row">
-		<div class="col-md-4">
-		 <img src="image/CAM00121.jpg" width=100 height=100 alt="Sunny Prakash Tiwari" class="img-rounded">
-		 </div>
-		 <div class="col-md-5">
-		<a href="https://www.facebook.com/sunnygkp10" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Sunny Prakash Tiwari</a>
-		<h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+917785068889</h4>
-		<h4 style="font-family:'typo' ">sunnygkp10@gmail.com</h4>
-		<h4 style="font-family:'typo' ">Kamla Nehru Institute Of Technology ,Sultanpur</h4></div></div>
-		</p>
-      </div>
-    
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
 
 <!--Modal for admin login-->
 	 <div class="modal fade" id="login">

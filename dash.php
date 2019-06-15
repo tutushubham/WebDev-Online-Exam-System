@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>NETCAMP || DASHBOARD </title>
+<title>EXAMIN | DASHBOARD</title>
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
  <link rel="stylesheet" href="css/main.css">
@@ -32,10 +32,50 @@ $(function () {
 </head>
 
 <body  style="background:#eee;">
-<div class="header">
+<div class="header navbar-dark">
 <div class="row">
 <div class="col-lg-6">
-<span class="logo">Test Your Skill</span></div>
+<span class="logo" style="color:white">Knowledge Assessment</span>
+<a href="https://www.linkedin.com/in/shubham-bhattacharyya-0b1380117/" target="_blank"><span style="color:white;margin-right: 1vw">ABOUT US</span></a>
+<a href="#" data-toggle="modal" data-target="#developers"><span style="color:white;margin-right: 1vw">DEVELOPERS</span></a> <a href="feedback.php" target="_blank"><span style="color:white;margin-right: 1vw">FEEDBACK</span></a></div>
+
+<!-- Modal For Developers-->
+<div class="modal fade title1" id="developers">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" >
+        <button type="button" class="close" style="color:white"data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only" style="color:white">Close</span></button>
+        <h4 class="modal-title" style="font-family:'typo' ; color:white"><span style="color:white">Developers</span></h4>
+      </div>
+    
+      <div class="modal-body">
+        <p>
+    <div class="row">
+    <div class="col-md-4">
+     <img src="image/1.jpeg" width=100 height=100 alt="Shubham Bhattacharyya" class="img-rounded">
+     </div>
+     <div class="col-md-5">
+    <a href="https://www.facebook.com/shubham.bhattacharyya.56" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Shubham Bhattacharyya</a>
+    <h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 75070 08911</h4>
+    <h4 style="font-family:'typo' ">tutushubham@gmail.com</h4>
+    <h4 style="font-family:'typo' ">Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior</h4></div></div>
+    </p>
+    <p>
+    <div class="row">
+    <div class="col-md-4">
+     <img src="image/2.png" width=100 height=100 alt="Guna Shekar Proddaturi" class="img-rounded">
+     </div>
+     <div class="col-md-5">
+    <a href="https://www.facebook.com/RVP20.CR7" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Guna Shekar Proddaturi</a>
+    <h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+91 79955 24941</h4>
+    <h4 style="font-family:'typo' ">gunashekherproddatoori@gmail.com</h4>
+    <h4 style="font-family:'typo' ">Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior</h4></div></div>
+    </p>
+      </div>
+    
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <?php
  include_once 'dbConnection.php';
 session_start();
@@ -49,15 +89,15 @@ else
 $name = $_SESSION['name'];
 
 include_once 'dbConnection.php';
-echo '<span class="pull-right top title1" ><span class="log1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;&nbsp;Hello,</span> <a href="account.php" class="log log1">'.$name.'</a>&nbsp;|&nbsp;<a href="logout.php?q=account.php" class="log"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;Signout</button></a></span>';
+echo '<span class="pull-right top title1" ><span class="log1" style="color:white"><span class="glyphicon glyphicon-user" aria-hidden="true" style="color:white"></span>&nbsp;&nbsp;&nbsp;&nbsp;Hello,</span> <a href="account.php" class="log log1" style="color:white">'.$name.'</a>&nbsp;|&nbsp;<a href="logout.php?q=account.php" class="log" style="color:white"><span class="glyphicon glyphicon-log-out" aria-hidden="true" style="color:white"></span>&nbsp;Signout</button></a></span>';
 }?>
 
 </div></div>
 <!-- admin start-->
 
 <!--navigation menu-->
-<nav class="navbar navbar-default title1">
-  <div class="container-fluid">
+<nav class="navbar navbar-default title1 navbar-dark">
+  <div class="container-fluid navbar-dark" style="color:white">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -66,7 +106,7 @@ echo '<span class="pull-right top title1" ><span class="log1"><span class="glyph
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="dash.php?q=0"><b>Dashboard</b></a>
+      <a class="navbar-brand" href="dash.php?q=0"  style="color:white"><b>Dashboard</b></a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
